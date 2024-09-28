@@ -1,0 +1,5 @@
+/target
+/migrations 
+/database/.keep
+/database/.env
+*.env

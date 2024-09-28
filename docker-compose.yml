@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:latest  # Add the image you want to use
+    environment:
+      - POSTGRES_USER=krxys
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=mydatabase
+    ports: 
+      - '5400:5432' 
+    volumes: 
+      - db:/var/lib/postgres/data
+
+volumes:
+  db:
+    driver: local  
