@@ -1,2 +1,0 @@
-
-(cat ~/.cache/wal/sequences &)
